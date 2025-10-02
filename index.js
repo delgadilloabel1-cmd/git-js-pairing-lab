@@ -44,7 +44,17 @@ function untilNum(n) {
   }
 }
 untilNum(10)
-*/
+
 //==========================================
 //prablem 5
-// multply 
+// multiply
+
+function multiply(a, b) {
+    return a * b
+
+}
+console.log((multiply(5, 6)));
+*/
+//============================================
+//Problem 6 
+//add
