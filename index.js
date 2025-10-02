@@ -88,3 +88,8 @@ console.log(isNegative((-4)))
 //=================================
 // Problem 8
 //triangleArea
+
+function triangleArea(h, b) {
+  return triangleArea = 1 / 2 * b * h
+}
+console.log(triangleArea(4, 5))
