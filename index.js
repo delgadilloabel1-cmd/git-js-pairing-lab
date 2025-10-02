@@ -19,3 +19,6 @@ function multiplesOfThree(n) {
   }
 }
 multiplesOfThree(100)
+//////////////////////////////
+// problem 3
+// multiplesOfThreeOrFive
