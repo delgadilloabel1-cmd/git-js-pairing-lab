@@ -84,7 +84,7 @@ console.log(isNegative((-9)));
 console.log(isNegative((8)));
 console.log(isNegative((-4)))
 
-*/
+
 //=================================
 // Problem 8
 //triangleArea
@@ -93,3 +93,24 @@ function triangleArea(h, b) {
   return triangleArea = 1 / 2 * b * h
 }
 console.log(triangleArea(4, 5))
+
+
+//===================================
+//Problem 9
+//betweenTwentyAndFourty
+function betweenTwentyAndFourty(n) {
+    if (n >= 20 && n <= 40) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(betweenTwentyAndFourty(41));
+console.log(betweenTwentyAndFourty(19));
+console.log(betweenTwentyAndFourty(25));
+console.log(betweenTwentyAndFourty(31));
+
+*/
+//=======================================
+//Problem 10
+//largest
