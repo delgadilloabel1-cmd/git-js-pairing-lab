@@ -71,7 +71,20 @@ function add(a, b) {
 console.log(add(6, 6))
 console.log(add(6, 7))
 console.log(add(3, 3))
-*/
+
 // ==============================
-// problem 7
+// Problem 7
 // isNevative
+function isNegative(n) {
+
+    return n < 0;
+}
+
+console.log(isNegative((-9)));
+console.log(isNegative((8)));
+console.log(isNegative((-4)))
+
+*/
+//=================================
+// Problem 8
+//triangleArea
