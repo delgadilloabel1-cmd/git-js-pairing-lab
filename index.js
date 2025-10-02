@@ -114,3 +114,16 @@ console.log(betweenTwentyAndFourty(31));
 //=======================================
 //Problem 10
 //largest
+
+function largest(a, b, c) {
+  if (a > b && a > c) {
+    return a
+  } else if (b > c) {
+    return b
+  } else {
+    return c
+  }
+}
+console.log(largest(5, 18, 9))
+console.log(largest(5, 9, 18))
+console.log(largest(3, 2, 1))
