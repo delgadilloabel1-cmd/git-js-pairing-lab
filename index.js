@@ -54,7 +54,24 @@ function multiply(a, b) {
 
 }
 console.log((multiply(5, 6)));
-*/
+
 //============================================
-//Problem 6 
+//Problem 6
 //add
+function add(a, b) {
+  let sum = a + b
+  if (a === b) {
+    return sum * 3
+  } else {
+    return sum
+  }
+
+}
+
+console.log(add(6, 6))
+console.log(add(6, 7))
+console.log(add(3, 3))
+*/
+// ==============================
+// problem 7
+// isNevative
