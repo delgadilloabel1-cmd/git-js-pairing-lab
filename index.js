@@ -164,8 +164,17 @@ function isLeapYear(year) {
 console.log(isLeapYear(2000));
 console.log(isLeapYear(1993));
 console.log(isLeapYear(2024));
-*/
+
 //======================================
 //Problem 13
 //getExtention
 
+function getExtention(fileName) {
+    let arr = fileName.split('.');
+    return "." + arr[arr.length - 1];
+}
+
+console.log(getExtention("README.me"));
+console.log(getExtention("app.js"));
+console.log(getExtention("hello.txt"))
+*/
