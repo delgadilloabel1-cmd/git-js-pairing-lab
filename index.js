@@ -128,7 +128,44 @@ console.log(largest(5, 18, 9))
 console.log(largest(5, 9, 18))
 console.log(largest(3, 2, 1))
 
-*/
+
 //=======================================
 //BONUS
-Hola
+// Problem 11
+//printTime
+
+function printTime() {
+    let currentTime = new Date();
+    let hours = currentTime.getHours();
+    let minutes = currentTime.getMinutes();
+    let seconds = currentTime.getSeconds();
+    let formattedHours = String(hours).padStart(2, '0');
+    let formattedMinutes = String(minutes).padStart(2, '0');
+    let formattedSeconds = String(seconds).padStart(2, '0');
+    let formattedTime = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
+    console.log(formattedTime);
+}
+printTime();
+
+//===================================
+//Problem 12
+//isLeapYear
+function isLeapYear(year) {
+    if (year % 400 === 0) {
+        return true
+    } else if (year % 100 === 0) {
+        return false
+    } else if (year % 4 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
+console.log(isLeapYear(2000));
+console.log(isLeapYear(1993));
+console.log(isLeapYear(2024));
+*/
+//======================================
+//Problem 13
+//getExtention
+
