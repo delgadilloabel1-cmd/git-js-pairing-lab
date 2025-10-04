@@ -180,3 +180,68 @@ console.log(largest(3, 2, 1))
 //
 //
 //Strt below
+//problem 14
+// absoluteNineteen
+// Write a function `absoluteNineteen` to compute the absolute difference between a specified number and 19.
+//  Returns triple their absolute difference if the specified number is greater than 19.
+function absoluteNineteen(n) {
+
+  let difference = Math.abs(n - 19)
+
+  if (n > 19) {
+    return difference * 3
+  } else {
+    return difference
+  }
+
+}
+//console.log(absoluteNineteen("10"))
+//console.log(absoluteNineteen("21"))
+
+
+
+
+
+
+
+
+//====================================
+// problem 15
+// switchLetters
+
+function switchLetters(string) {
+  if (string.length === 0 || string.length === 1) {
+    return string
+  }
+
+  let firstChar = string[0]
+  let lastChar = string[string.length - 1]
+  let middleChar = string.slice(1, string.length - 1)
+  newString = lastChar + middleChar + firstChar
+  {
+    return newString
+  }
+
+}
+//console.log(switchLetters("anne"))
+//console.log(switchLetters("hello world"))
+//console.log(switchLetters("a"))
+//console.log(switchLetters(""))    
+
+
+
+// problem 16
+// changeString
+//Write a function `changeString` to replace every character 
+// in a given string with the character following it in the alphabet/
+
+
+function changeString(string) {
+
+  let newString = ""
+  for (let i = 0; i < string.length; i++)
+    return newString
+  let string[i] = 0;
+  let alphabet = ASCII
+}
+console.log("abc")
