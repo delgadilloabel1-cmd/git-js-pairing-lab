@@ -1,4 +1,3 @@
-/*
 //Code your solutions in this file
 // Problem 1
 function fiveToOneHundred(n) {
@@ -128,58 +127,60 @@ console.log(largest(5, 18, 9))
 console.log(largest(5, 9, 18))
 console.log(largest(3, 2, 1))
 
-*/
+
 //=======================================
 //BONUS
+//========================================
 
+// Problem 11
+//printTime
 
+function printTime() {
+    let currentTime = new Date();
+    let hours = currentTime.getHours();
+    let minutes = currentTime.getMinutes();
+    let seconds = currentTime.getSeconds();
+    let formattedHours = String(hours).padStart(2, '0');
+    let formattedMinutes = String(minutes).padStart(2, '0');
+    let formattedSeconds = String(seconds).padStart(2, '0');
+    let formattedTime = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
+    console.log(formattedTime);
+}
+printTime();
 
+//===================================
+//Problem 12
+//isLeapYear
+function isLeapYear(year) {
+    if (year % 400 === 0) {
+        return true
+    } else if (year % 100 === 0) {
+        return false
+    } else if (year % 4 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
+console.log(isLeapYear(2000));
+console.log(isLeapYear(1993));
+console.log(isLeapYear(2024));
 
+//======================================
+//Problem 13
+//getExtention
 
+function getExtention(fileName) {
+    let arr = fileName.split('.');
+    return "." + arr[arr.length - 1];
+}
 
+console.log(getExtention("README.me"));
+console.log(getExtention("app.js"));
+console.log(getExtention("hello.txt"))
 
+//===========================================
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-//
-//Strt below
 //problem 14
 // absoluteNineteen
 // Write a function `absoluteNineteen` to compute the absolute difference between a specified number and 19.
@@ -196,14 +197,7 @@ function absoluteNineteen(n) {
 
 }
 //console.log(absoluteNineteen("10"))
-//console.log(absoluteNineteen("21"))
-
-
-
-
-
-
-
+//console.log(absoluteNineteen("21")
 
 //====================================
 // problem 15
@@ -228,7 +222,7 @@ function switchLetters(string) {
 //console.log(switchLetters("a"))
 //console.log(switchLetters(""))    
 
-
+//=========================================
 
 // problem 16
 // changeString
